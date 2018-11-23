@@ -1,0 +1,125 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav ul a:hover{
+  color: #444;
+  background-color: #00BCD4;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+/*CSS PRELOADER*/
+.progress{
+  margin: 0 !important;
+}
+
+/*CSS HEADER WEB*/
+.header-web {
+  font-size: 45px;
+  font-weight: bold !important;
+  font-family: -webkit-pictograph;
+}
+
+/*CSS FOTM PENDAFTARAN*/
+.form_daftar {
+  margin:40px 70px 70px 70px;
+}
+
+/*ol, ul {
+    font-size: 14px !important;
+    line-height: 65px !important;
+}*/
+
+/*CSS TABLE*/
+/*th {
+  text-align: center !important;
+}
+*/
+.data-table {
+  margin-top:50px;
+}
+
+/*CSS NAVIGASI*/
+#sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: transparent !important; 
+    z-index: 997;
+    will-change: opacity;
+}
+
+.navigasi {
+  font-size: 25px;
+  font-family: -webkit-pictograph;
+ /* font-weight: bold !important;*/
+  -webkit-font-smoothing: auto;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .header-web {
+    font-size: 40px;
+    font-weight: bold !important;
+    font-family: -webkit-pictograph;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.teal {
+    background-color: #005285 !important;
+}
+
+.footer-copyright {
+  background-color: #292e31 !important;
+}
