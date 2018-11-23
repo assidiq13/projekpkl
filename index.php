@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-11">
                         
-                        <h5>As-Shiidiq Tour  </h5>
+                        <h5>As-Shiidiq Tour and Travel  </h5>
                        
                     </div>
                 </div>
