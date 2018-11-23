@@ -27,12 +27,12 @@ if(isset($_GET['id'])){
 		//jika query DELETE berhasil
 		if($del){
 			
-			echo 'Data  berhasil di hapus! ';		//Pesan jika proses hapus berhasil
+			echo 'Data  berhasil di hapus lohh! ';		//Pesan jika proses hapus berhasil
 			echo '<script>window.history.back()</script>';
 			
 		}else{
 			
-			echo 'Gagal menghapus data! ';		//Pesan jika proses hapus gagal
+			echo 'Gagal menghapus data euyy! ';		//Pesan jika proses hapus gagal
 			echo '<a href="index.php">Kembali</a>';	//membuat Link untuk kembali ke halaman beranda
 		
 		}
